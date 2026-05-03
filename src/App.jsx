@@ -1,12 +1,17 @@
-import React from 'react'
-
+import React from 'react';
+import Navbar from './NavBar';
+import Footer from './Footer';
 
 function App() {
 
   return (
-    <div className="App">
-         <h1>Hello Vite + React</h1>
-      </div>
+   <>
+     <Navbar />
+     <h1 className='text-3xl font-bold text-center mt-10'>Welcome to devTinder!</h1>
+     <Footer />
+   </>
+  
+   
   )
 }
 export default App
